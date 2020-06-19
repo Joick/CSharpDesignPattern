@@ -1,4 +1,5 @@
 ﻿using System;
+using SimpleFactoryPattern.AbstractProcessor;
 
 namespace SimpleFactoryPattern
 {
@@ -6,7 +7,11 @@ namespace SimpleFactoryPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // 传入颜色为判断参数,获取对应颜色的油漆
+            var paint = ProcessorFactory.CreatePaint(PaintColor.Red);
+
+            // 用油漆上色
+            paint.DoColoring();
         }
     }
 }
