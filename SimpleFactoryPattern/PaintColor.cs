@@ -1,4 +1,4 @@
-﻿namespace SimpleFactoryPattern.AbstractProcessor
+﻿namespace SimpleFactoryPattern
 {
     /// <summary>
     /// 油漆颜色 枚举
