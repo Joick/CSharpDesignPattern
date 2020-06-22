@@ -15,6 +15,10 @@ namespace SimpleFactoryPattern
 
             var paint1 = VirtualProcessor.ProcessorFactory.CreatePaint(PaintColor.Blue);
             paint1.DoColoring();
+
+
+            var paint2 = InterfaceProcessor.ProcessorFactory.CreatePaint(PaintColor.Red);
+            paint2.DoColoring();
         }
     }
 }
