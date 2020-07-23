@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.桥接模式", "08.桥接模式", "{61259AA5-223E-441E-B66C-C3D420B5F5EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{66BD25AC-AACE-4CD3-A48B-E5C80E02C45B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{66BD25AC-AACE-4CD3-A48B-E5C80E02C45B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.装饰者模式", "09.装饰者模式", "{FAA6C1E9-5745-4144-B6EA-4807116781AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{20618A8E-4ECD-4BC9-92EE-6A03EE4DEDAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +77,10 @@ Global
 		{66BD25AC-AACE-4CD3-A48B-E5C80E02C45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66BD25AC-AACE-4CD3-A48B-E5C80E02C45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66BD25AC-AACE-4CD3-A48B-E5C80E02C45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20618A8E-4ECD-4BC9-92EE-6A03EE4DEDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20618A8E-4ECD-4BC9-92EE-6A03EE4DEDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20618A8E-4ECD-4BC9-92EE-6A03EE4DEDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20618A8E-4ECD-4BC9-92EE-6A03EE4DEDAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +94,7 @@ Global
 		{72B43A29-DD54-45FF-948B-F5170E4E2C43} = {31DE8704-FDFF-4CBA-BA3F-9E70DC6C7528}
 		{D0304681-A945-4A0F-BD9D-ECC7CE35691A} = {D8239A9D-D3FC-49FB-A583-4BA73878DA84}
 		{66BD25AC-AACE-4CD3-A48B-E5C80E02C45B} = {61259AA5-223E-441E-B66C-C3D420B5F5EE}
+		{20618A8E-4ECD-4BC9-92EE-6A03EE4DEDAA} = {FAA6C1E9-5745-4144-B6EA-4807116781AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3D37ECDA-AD54-4460-8FB7-1F4CE4D231D7}
